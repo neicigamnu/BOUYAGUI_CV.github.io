@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    color: chocolate;
+}
+
+ul {
+    color: wheat;
+}
+
+h1,
+h2,
+p {
+    font-family: 'Azeret Mono', monospace, sans-serif;
+    color: wheat;
+}
+
+.titre {
+    font-size: larger;
+}
+
+h1,
+h1+p {
+    text-align: center;
+}
+
+h2 {
+    color: #6E4A46;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2%;
+}
+
+#contenu {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#contenu {
+    width: 85%;
+}
+
+.exp {
+    margin-left: 3%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media all and (max-width: 1024px) {
+    section {
+        display: block;
+        width: auto;
+    }
+    #liseret {
+        display: none;
+    }
+    #contenu {
+        width: auto;
+    }
+}
